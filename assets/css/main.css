@@ -1,0 +1,79 @@
+
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #FFF3F3 36%, #EAFFFD);
+  background-repeat: no-repeat;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: always;
+}
+
+@font-face {
+  font-family: "HostGroteskRegular";
+  src: url(../fonts/HostGrotesk-Regular.woff2);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: selection 0.1s ease-in;
+}
+
+.host-gr {
+  font-family: 'HostGroteskRegular';
+}
+.host-gr::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "HostGroteskBold";
+  src: url(../fonts/HostGrotesk-Bold.woff2);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: selection 0.1s ease-in;
+}
+.host-gb {
+  font-family: 'HostGroteskBold';
+}
+.host-gb::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "HostGroteskMedium";
+  src: url(../fonts/HostGrotesk-Medium.woff2);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: selection 0.1s ease-in;
+}
+.host-gm {
+  font-family: "HostGroteskMedium";
+}
+.host-gm::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "HostGroteskLight";
+  src: url(../fonts/HostGrotesk-Light.woff2);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: selection 0.1s ease-in;
+}
+.host-gl {
+  font-family: "HostGroteskLight";
+}
+.host-gl::selection {
+  background-color: #000;
+  color: #fff;
+}
